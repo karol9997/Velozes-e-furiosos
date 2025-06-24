@@ -33,17 +33,29 @@ header h1 {
     color: white;
 }
 
-/* Seção de Vídeo */
-.video-section {
-    background-color: #000;
+/* Seção de informações do filme */
+.movie-info {
+    background-color: #111;
     padding: 40px 0;
     text-align: center;
 }
 
-.video-section h2 {
-    font-size: 2rem;
+.movie-info h2 {
+    font-size: 2.5rem;
     color: #e60000;
     margin-bottom: 20px;
+}
+
+.movie-info p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.movie-info h3 {
+    font-size: 2rem;
+    color: #e60000;
+    margin-top: 40px;
 }
 
 /* Contêiner do vídeo */
@@ -51,6 +63,7 @@ header h1 {
     width: 100%;
     max-width: 900px;
     height: 500px;
+    margin-top: 20px;
 }
 
 /* Rodapé */
@@ -62,6 +75,6 @@ footer {
 }
 
 footer p {
-    font-size: 1reem;
+    font-size: 1rem;
     color: #888;
 }
